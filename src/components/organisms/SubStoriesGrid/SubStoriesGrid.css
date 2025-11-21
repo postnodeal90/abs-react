@@ -1,0 +1,25 @@
+.sub-stories-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+  width: 100%;
+  margin-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--color-neutral-300);
+}
+
+/* Tablet - 2 columns */
+@media (min-width: 768px) {
+  .sub-stories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+  }
+}
+
+/* Desktop - 4 columns in a row */
+@media (min-width: 1024px) {
+  .sub-stories-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+  }
+}

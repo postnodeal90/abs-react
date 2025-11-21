@@ -1,0 +1,51 @@
+.category-tag {
+  display: inline-block;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all var(--transition-fast);
+  
+  /* Remove box styling - display as plain text */
+  background: none;
+  border: none;
+  padding: 0;
+  min-height: auto;
+}
+
+/* Sizes */
+.category-tag--small {
+  font-size: clamp(0.7rem, 1.5vw, 0.75rem);
+}
+
+.category-tag--medium {
+  font-size: var(--font-size-hero-category);
+}
+
+.category-tag--large {
+  font-size: clamp(0.875rem, 2vw, 1rem);
+}
+
+/* Category Colors - Text only */
+.category-tag--nation,
+.category-tag--nation.category-tag--solid,
+.category-tag--nation.category-tag--default,
+.category-tag--nation.category-tag--outline,
+.category-tag--entertainment,
+.category-tag--entertainment.category-tag--solid,
+.category-tag--entertainment.category-tag--default,
+.category-tag--entertainment.category-tag--outline,
+.category-tag--sports,
+.category-tag--sports.category-tag--solid,
+.category-tag--sports.category-tag--default,
+.category-tag--sports.category-tag--outline,
+.category-tag--business,
+.category-tag--business.category-tag--solid,
+.category-tag--business.category-tag--default,
+.category-tag--business.category-tag--outline,
+.category-tag--lifestyle,
+.category-tag--lifestyle.category-tag--solid,
+.category-tag--lifestyle.category-tag--default,
+.category-tag--lifestyle.category-tag--outline,
+.category-tag--default {
+  color: var(--color-category-nation);
+}

@@ -1,0 +1,274 @@
+{
+  "topStory": {
+    "id": 1,
+    "title": "Breaking: Historic Peace Agreement Signed in Manila",
+    "category": "Nation",
+    "description": "Leaders from across the region gathered today to sign a landmark agreement that will reshape diplomatic relations for years to come.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?w=1200&h=600&fit=crop",
+      "alt": "Government officials signing historic agreement",
+      "width": 1200,
+      "height": 600
+    },
+    "link": "/news/historic-peace-agreement",
+    "publishedAt": "2025-11-20T08:00:00Z",
+    "author": "Maria Santos"
+  },
+  "articles": [
+    {
+      "id": 2,
+      "title": "Philippine Entertainment Awards 2025: Complete Winners List",
+      "category": "Entertainment",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=250&fit=crop",
+        "alt": "Award ceremony celebration",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/entertainment/awards-2025",
+      "publishedAt": "2025-11-20T06:30:00Z",
+      "author": "Carlos Reyes"
+    },
+    {
+      "id": 3,
+      "title": "National Basketball Team Advances to Championship Finals",
+      "category": "Sports",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=250&fit=crop",
+        "alt": "Basketball championship game",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/sports/basketball-finals",
+      "publishedAt": "2025-11-19T22:15:00Z",
+      "author": "Ramon Cruz"
+    },
+    {
+      "id": 4,
+      "title": "Tech Startups Drive Economic Growth in Metro Manila",
+      "category": "Business",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=250&fit=crop",
+        "alt": "Modern office buildings and technology hub",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/business/tech-startups-growth",
+      "publishedAt": "2025-11-19T14:00:00Z",
+      "author": "Ana Lopez"
+    },
+    {
+      "id": 5,
+      "title": "Discover the Hidden Beaches of Palawan: A Travel Guide",
+      "category": "Lifestyle",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=250&fit=crop",
+        "alt": "Beautiful beach in Palawan",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/lifestyle/palawan-beaches",
+      "publishedAt": "2025-11-19T10:00:00Z",
+      "author": "Sofia Mendoza"
+    },
+    {
+      "id": 6,
+      "title": "New Infrastructure Projects to Transform Metro Traffic",
+      "category": "Nation",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=250&fit=crop",
+        "alt": "Construction and infrastructure development",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/nation/infrastructure-projects",
+      "publishedAt": "2025-11-19T08:00:00Z",
+      "author": "Miguel Santos"
+    },
+    {
+      "id": 7,
+      "title": "Local Film Festival Showcases Independent Filipino Cinema",
+      "category": "Entertainment",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=250&fit=crop",
+        "alt": "Film festival event",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/entertainment/film-festival",
+      "publishedAt": "2025-11-18T18:00:00Z",
+      "author": "Isabella Cruz"
+    },
+    {
+      "id": 8,
+      "title": "Renewable Energy Initiative Launches Across Philippines",
+      "category": "Business",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=250&fit=crop",
+        "alt": "Solar panels and renewable energy",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/business/renewable-energy",
+      "publishedAt": "2025-11-18T12:00:00Z",
+      "author": "Diego Reyes"
+    },
+    {
+      "id": 9,
+      "title": "National Team Prepares for International Competition",
+      "category": "Sports",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=250&fit=crop",
+        "alt": "Athletes training",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/sports/national-team-training",
+      "publishedAt": "2025-11-18T09:00:00Z",
+      "author": "Carmen Lopez"
+    }
+  ],
+  "subStories": [
+    {
+      "id": 10,
+      "title": "New Infrastructure Projects Set to Transform Metro Manila",
+      "category": "Nation",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=250&fit=crop",
+        "alt": "Infrastructure construction",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/news/infrastructure-projects"
+    },
+    {
+      "id": 11,
+      "title": "Filipino Film Wins at International Festival",
+      "category": "Entertainment",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=250&fit=crop",
+        "alt": "Film festival",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/entertainment/film-award"
+    },
+    {
+      "id": 12,
+      "title": "Philippine Tourism Numbers Reach Record High",
+      "category": "Business",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=250&fit=crop",
+        "alt": "Tourist destination",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/business/tourism-record"
+    },
+    {
+      "id": 13,
+      "title": "Local Chef Earns Michelin Star Recognition",
+      "category": "Lifestyle",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=250&fit=crop",
+        "alt": "Fine dining",
+        "width": 400,
+        "height": 250
+      },
+      "link": "/lifestyle/michelin-star"
+    }
+  ],
+  "brandNews": [
+    {
+      "id": 14,
+      "title": "Revolutionary Smart Home Technology Transforms Living Spaces",
+      "category": "Business",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1558002038-1055907df827?w=300&h=200&fit=crop",
+        "alt": "Smart home technology",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/smart-home-tech",
+      "sponsor": "TechCorp Solutions"
+    },
+    {
+      "id": 15,
+      "title": "Sustainable Fashion Brand Launches Eco-Friendly Collection",
+      "category": "Lifestyle",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=300&h=200&fit=crop",
+        "alt": "Sustainable fashion",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/eco-fashion",
+      "sponsor": "GreenStyle Manila"
+    },
+    {
+      "id": 16,
+      "title": "Premium Coffee Brand Opens Flagship Store in Makati",
+      "category": "Lifestyle",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=300&h=200&fit=crop",
+        "alt": "Coffee shop interior",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/coffee-flagship",
+      "sponsor": "Aroma Premium Coffee"
+    },
+    {
+      "id": 17,
+      "title": "Innovative Health App Helps Track Wellness Goals",
+      "category": "Business",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=300&h=200&fit=crop",
+        "alt": "Health and wellness app",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/health-app",
+      "sponsor": "WellTrack Technologies"
+    },
+    {
+      "id": 18,
+      "title": "Luxury Automotive Brand Unveils Electric Vehicle Line",
+      "category": "Business",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=300&h=200&fit=crop",
+        "alt": "Electric vehicle",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/electric-vehicles",
+      "sponsor": "DriveElite Motors"
+    },
+    {
+      "id": 19,
+      "title": "New Fitness Center Chain Expands to Metro Manila",
+      "category": "Lifestyle",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=300&h=200&fit=crop",
+        "alt": "Modern gym facility",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/fitness-expansion",
+      "sponsor": "FitLife Wellness"
+    },
+    {
+      "id": 20,
+      "title": "Premium Skincare Line Launches With Natural Ingredients",
+      "category": "Lifestyle",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=300&h=200&fit=crop",
+        "alt": "Skincare products",
+        "width": 300,
+        "height": 200
+      },
+      "link": "/brand-news/skincare-launch",
+      "sponsor": "NatureGlow Beauty"
+    }
+  ]
+}

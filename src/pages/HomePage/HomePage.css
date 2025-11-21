@@ -1,0 +1,38 @@
+.home-page__news {
+  margin-bottom: var(--spacing-fluid-xl);
+}
+
+.home-page__welcome {
+  text-align: center;
+  padding: var(--spacing-fluid-xl) 0;
+}
+
+.home-page__welcome h1 {
+  margin-bottom: var(--spacing-md);
+}
+
+.home-page__cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.home-page__features {
+  padding: var(--spacing-fluid-xl) 0;
+}
+
+.home-page__features h2 {
+  margin-bottom: var(--spacing-fluid-lg);
+}
+
+.home-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: var(--spacing-fluid-md);
+  
+  /* Better grid behavior on larger screens */
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}

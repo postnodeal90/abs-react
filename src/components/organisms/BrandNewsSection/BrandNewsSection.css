@@ -1,0 +1,143 @@
+.brand-news-section {
+  width: 100%;
+  margin-top: var(--spacing-xl);
+  overflow: hidden;
+}
+
+.brand-news-section__header {
+  margin-bottom: var(--spacing-md);
+}
+
+.brand-news-section__title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.brand-news-section__vertical-divider {
+  width: 4px;
+  height: 2rem;
+  background-color: var(--color-category-sports);
+  flex-shrink: 0;
+}
+
+.brand-news-section__title {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.brand-news-section__view-more {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-category-nation);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-fast);
+}
+
+.brand-news-section__view-more:hover {
+  color: var(--color-news-primary);
+}
+
+.brand-news-section__arrow {
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: transform var(--transition-fast);
+}
+
+.brand-news-section__view-more:hover .brand-news-section__arrow {
+  transform: translateX(4px);
+}
+
+.brand-news-section__divider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-neutral-300);
+}
+
+.brand-news-section__carousel {
+  position: relative;
+}
+
+.brand-news-section__grid {
+  display: flex;
+  gap: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.brand-news-section__grid::-webkit-scrollbar {
+  display: none;
+}
+
+.brand-news-section__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--color-neutral-300);
+  color: var(--color-category-nation);
+  font-size: 1.5rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-md);
+  line-height: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.brand-news-section__nav:hover {
+  background-color: var(--color-category-nation);
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.brand-news-section__nav--left {
+  left: 10px;
+}
+
+.brand-news-section__nav--right {
+  right: 10px;
+}
+
+/* Scrollbar styling - hidden by default, kept for browsers that need it */
+.brand-news-section__grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.brand-news-section__grid::-webkit-scrollbar-track {
+  background: var(--color-neutral-200);
+}
+
+.brand-news-section__grid::-webkit-scrollbar-thumb {
+  background: var(--color-neutral-400);
+  border-radius: 4px;
+}
+
+.brand-news-section__grid::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neutral-500);
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .brand-news-section__grid {
+    gap: var(--spacing-lg);
+  }
+}

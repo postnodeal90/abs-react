@@ -1,0 +1,62 @@
+.text {
+  margin: 0;
+}
+
+/* Variants */
+.text--h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.text--h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.text--h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.text--body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text--small {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Colors */
+.text--default {
+  color: #212529;
+}
+
+.text--muted {
+  color: #6c757d;
+}
+
+.text--primary {
+  color: #007bff;
+}
+
+.text--danger {
+  color: #dc3545;
+}
+
+/* Alignment */
+.text--left {
+  text-align: left;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--right {
+  text-align: right;
+}

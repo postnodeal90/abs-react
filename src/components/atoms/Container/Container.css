@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Ensure content doesn't touch screen edges on any device */
+  padding-left: max(var(--spacing-md), env(safe-area-inset-left));
+  padding-right: max(var(--spacing-md), env(safe-area-inset-right));
+}
+
+.container--padded {
+  padding-left: var(--spacing-fluid-md);
+  padding-right: var(--spacing-fluid-md);
+}
+
+/* Max Widths */
+.container--sm {
+  max-width: 640px;
+}
+
+.container--md {
+  max-width: 768px;
+}
+
+.container--lg {
+  max-width: 1024px;
+}
+
+.container--xl {
+  max-width: 1280px;
+}
+
+.container--2xl {
+  max-width: 1536px;
+}
+
+.container--full {
+  max-width: 100%;
+}
+
+/* Responsive Padding - Fallback for older browsers */
+@supports not (padding: clamp(1rem, 3vw, 2rem)) {
+  @media (min-width: 768px) {
+    .container--padded {
+      padding-left: var(--spacing-lg);
+      padding-right: var(--spacing-lg);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container--padded {
+      padding-left: var(--spacing-xl);
+      padding-right: var(--spacing-xl);
+    }
+  }
+}
